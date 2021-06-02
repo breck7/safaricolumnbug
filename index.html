@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	.container {
+		column-count: auto;
+		column-width: 35ch;
+	}
+	.content {
+		width: 35ch;
+		overflow: hidden;
+	}
+	code {
+		overflow: auto;
+		background: red;
+		white-space: pre;
+		display: block;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="content">
+		<p>the bug only appears in column 2+.</p>
+		<code>// this code block should have a red background color and should scroll</code>
+	</div>
+</div>
+</body>
+</html>
