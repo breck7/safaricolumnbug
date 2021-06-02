@@ -7,3 +7,8 @@ but it is not painted.
 Minimal test case in `index.html` or see `demo.mov` for a repro.
 
 Does not happen in Chrome.
+
+## The fix
+
+Do not have overflow:hidden on the parent container.
+
